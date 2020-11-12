@@ -134,7 +134,14 @@
 		$(".fh5co-loader").fadeOut("slow");
 	};
 
+	var downloadResume = function() {
+		$(".download-resume").onClick(function(e){
+			e.preventDefault();
+			
+		});
+	}
 	
+
 	$(function(){
 		contentWayPoint();
 		goToTop();
